@@ -1,0 +1,186 @@
+.graps-container {
+  padding: 15px;
+  background-color: black;
+
+  max-height: 100%;
+}
+.barchart {
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 5px;
+
+  margin-bottom: 15px;
+}
+.sales {
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 7px;
+}
+.pie {
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7px;
+}
+@media screen and (max-width: 568px) {
+  .pie {
+    width: 100%;
+  }
+  .sales {
+    width: 100%;
+  }
+}
+.pie-head {
+  text-align: center;
+  margin-bottom: 0px;
+}
+.cont {
+  width: 80%;
+}
+.transaction-table {
+  margin: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 568px) {
+  table {
+    max-width: 220px;
+  }
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-family: "Roboto";
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.product-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.table {
+  background-color: aliceblue;
+  padding: 40px;
+  padding-top: 18px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.table-box {
+  border-radius: 5px;
+  width: 100%;
+}
+h2 {
+  text-align: center;
+  font-family: "Roboto";
+}
+.span {
+  color: "#171f46";
+}
+.drop {
+  height: 30px;
+  width: 110px;
+  border: none;
+  border-radius: 2px;
+  background-color: burlywood;
+  padding: 5px;
+  font-family: "Roboto";
+}
+.Search {
+  height: 30px;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-top: 2px;
+  border: none;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  align-items: center;
+  width: 210px;
+}
+.button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.search-icon {
+  height: 18px;
+  width: 18px;
+}
+.error {
+  height: 140px;
+  width: 180px;
+}
+.error-msg {
+  color: #1e293b;
+  text-decoration: none;
+  margin: 0px;
+}
+.error-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.error-button {
+  height: 25px;
+  padding: 5px 10px 5px 10px;
+  font-family: "Roboto";
+  color: #ffffff;
+  border-radius: 3px;
+  border: none;
+  background-color: #171f46;
+  cursor: pointer;
+}
+.error-para {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+.loders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.align {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+}
+.pie-sales {
+  display: flex;
+}
+@media screen and (max-width: 568px) {
+  .pie-sales {
+    flex-direction: column;
+    width: 100%;
+  }
+}
